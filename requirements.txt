@@ -1,0 +1,26 @@
+# Data / BigQuery
+google-cloud-bigquery
+pandas
+db-dtypes
+numpy
+
+# Text cleaning / stats
+clean-text
+bayesian-average
+unicode
+
+# NLP
+spacy
+
+# Visualization
+matplotlib
+seaborn
+wordcloud
+
+streamlit
+
+# --- Not installable via requirements.txt (run separately) ---
+# spaCy English model (version must match your installed spaCy):
+#   python -m spacy download en_core_web_sm
+# Google Cloud authentication:
+#   gcloud auth application-default login
